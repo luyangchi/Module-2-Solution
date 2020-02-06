@@ -1,10 +1,20 @@
-@MEDIA (MIN-WIDTH:992px){
+div p{
+padding:5px;
 
+}
+@MEDIA (MIN-WIDTH:992px){
+div {
+float:left;
+width:30%
+}
 
 
 }
 @MEDIA (MIN-WIDTH:768px and MAX-WIDTH:991px){
-
+.chicken, .beef {
+float:left;
+width:50%;
+}
 
 
 }

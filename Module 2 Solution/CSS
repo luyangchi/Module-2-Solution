@@ -1,29 +1,29 @@
 * {
 border-sizing: boder-box;
 }
-div .chicken, .beef, .sushi {
+.chicken, .beef, .sushi {
 padding:5px;
 background-color:grey;
 border:1px solid black;
 margin:10px 5px 5px 5px;
 }
-div #chicken, #beef, #sushi{
+#chicken, #beef, #sushi{
 position:top right static;
 border:1px solid black;
 width:80px;
 height:30px;
 }
-div #chicken{
+#chicken{
 background-color:#ccffff;
 }
-div #beef{
+#beef{
 background-color:#ff99cc;
 }
-div #sushi{
+#sushi{
 background-color:#ffffcc;
 }
 @MEDIA (MIN-WIDTH:992px){
-div {
+.chicken, .beef, .sushi {
 float:left;
 width:30%;
 margin-right:10px;
@@ -31,14 +31,13 @@ margin-right:10px;
 
 }
 @MEDIA (MIN-WIDTH:768px and MAX-WIDTH:991px){
-
 .sushi {
 clear:left;
 }
-
 }
 @MEDIA (Max-WIDTH:767px){
-
-
-
+.chicken, .beef, .sushi {
+float:left;
+width:90%;
+}
 }

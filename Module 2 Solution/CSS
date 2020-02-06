@@ -1,13 +1,32 @@
-div p{
+* {
+border-sizing: boder-box;
+}
+div .chicken, .beef, .sushi {
 padding:5px;
-
+background-color:grey;
+border:1px solid black;
+margin:10px 5px 5px 5px;
+}
+div #chicken, #beef, #sushi{
+position:top right static;
+border:1px solid black;
+width:80px;
+height:30px;
+}
+div #chicken{
+background-color:#ccffff;
+}
+div #beef{
+background-color:#ff99cc;
+}
+div #sushi{
+background-color:#ffffcc;
 }
 @MEDIA (MIN-WIDTH:992px){
 div {
 float:left;
 width:30%
 }
-
 
 }
 @MEDIA (MIN-WIDTH:768px and MAX-WIDTH:991px){

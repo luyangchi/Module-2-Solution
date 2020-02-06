@@ -24,7 +24,6 @@ background-color:#ffffcc;
 }
 @MEDIA (MIN-WIDTH:992px){
 .chicken, .beef, .sushi {
-float:left;
 width:30%;
 margin-right:10px;
 }

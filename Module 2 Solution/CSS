@@ -25,17 +25,15 @@ background-color:#ffffcc;
 @MEDIA (MIN-WIDTH:992px){
 div {
 float:left;
-width:30%
+width:30%;
+margin-right:10px;
 }
 
 }
 @MEDIA (MIN-WIDTH:768px and MAX-WIDTH:991px){
-.chicken, .beef {
-float:left;
-width:50%;
-}
+
 .sushi {
-width:90%;
+clear:left;
 }
 
 }

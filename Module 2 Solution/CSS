@@ -1,0 +1,15 @@
+@MEDIA (MIN-WIDTH:992px){
+
+
+
+}
+@MEDIA (MIN-WIDTH:768px and MAX-WIDTH:991px){
+
+
+
+}
+@MEDIA (Max-WIDTH:767px){
+
+
+
+}
